@@ -1,7 +1,0 @@
-index.html
-writing/
-  first-essay.html
-  second-essay.html
-css/
-  style.css
-favicon.ico
