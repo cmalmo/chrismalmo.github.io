@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>If You Use the Internet in Canada, the TPP Should Concern You
+</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A 2014 piece about the Trans-Pacific Partnership (TPP) and its implications for Canada.">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="canonical" href="https://chrismalmo.com/writing/TPP-and-internet.html.html">
+</head>
+<body>
+  <header>
+    <h1><a href="/">Your Name</a></h1>
+    <hr>
+  </header>
+
+  <main>
+    <h2>The Trans-Pacific Partnership and Canada</h2>
+    <p class="meta">3 Sep 2025 • ~15 min read</p>
+
+    <p>Back in October 2013, Wikileaks released an important draft chapter of what’s likely the biggest ‘trade’ agreement you’ve barely heard of. It’s called the Trans-Pacific Partnership (TPP), and it’s essentially SOPA raised from the dead and stitched to a bloated version of NAFTA.</p>
+
+    <p>The TPP is a 12-country US-led trade deal that’s been under negotiation for a few years now. Negotiations have been conducted almost entirely in secret, with only select “advisors” (read: lobbyists) having outside access to the text. Neither they nor lawmakers are allowed to say anything to the press besides hollow, praising platitudes about how “high-standard” the treaty is.</p>
+
+    <p>Many observers have described what they’ve been able to see of leaked draft texts as a “Hollywood wish list” and a deal that gives corporations the same rights as sovereign countries. As a very short summary of the intellectual property chapter, we can say with confidence that the US is continuing their so far unsuccessful crusade to upload their harsh copyright law to the rest of the world.</p>
+
+    <p>This time, by tying it to the promised ‘trade and growth’ that governments and over-40 voters crave, they think they’ll finally manage to do it. The Obama administration has asked for Congress to fast-track approval of the TPP once negotiations are complete. Fast-track is essentially a promise from Congress to sign the treaty as-is, yes or no, limiting real discussion of its benefits and costs. This assures negotiating partners that the US is serious, but it also greatly limits democratic input. The enabling bill describes a bizarro world where fast-track “provides greater transparency and gives Congress greater oversight of the Administration’s trade negotiations.” It’s easy for Canadians to sit back and laugh at this doublespeak, until we realize that a Canadian Prime Minister with a majority has fast-track powers by default.</p>
+
+    <p>500 cleared US “stakeholders” like the MPAA, RIAA, and US Chamber of Commerce are privy to regular TPP updates, while congressmen like Alan Grayson get blueballed. In response to this process of treating an international treaty with such secrecy, Mr Grayson memorably called the whole thing a “punch in the face to the middle class”. He’d tell us more, but he’s prohibited by law from talking about specifics to reporters. It’s almost as if the US doesn’t want citizens to find out about the new copyright laws they’d be living with under the TPP, for fear of another SOPA/ACTA backlash.</p>
+
+    <p>Like light getting sucked into a black hole, there’s a disturbing trend in Canada where information relevant to the public interest can’t escape the federal government. MPs in Parliament or public interest groups still don’t have access to the negotiating text, but Trade Minister Ed Fast created a secret group of industry bigwigs who can read it and offer their input. When asked, he dodged questions about the existence of the group, but was forced to cop to it after University of Ottawa Prof Michael Geist brought evidence to light proving its existence.</p>
+
+    <p>Let’s discuss why those of us living in the America’s frozen hat should be more than politely annoyed.</p>
+
+    <p>Back in 2012, the Canadian government updated the country’s copyright legislation. It wasn’t perfect, but it was received as a generally moderate effort to modernize Canadian copyright law and balance fair user and societal interests with the rights of creators to get paid. For example, the law includes a cap of $5,000 on penalties for non-commercial infringement. This means all you people downloading your free Metallica discographies or streaming seasons of Buffy the Vampire Slayer can relax. It’s not worth anybody’s time to sue you, for now.</p>
+
+    <p>There are still some nasty problems with our copyright law: it’s illegal to break digital locks on things like DVDs, ebooks, and software, even for legitimate use like transferring content you own to different devices. This takes a large crap on the ancient principle of “I bought it, it’s mine and I can use it how I want to,” but in practice you can still get away with it on a personal level. It could become a lot more of an issue for you if you were, say, freely teaching people how to jailbreak a PS4 or 3D print a car part they need.</p>
+
+    <p>The Canadian government has also just wrapped up consultations with major ISP’s about new “notice and notice” rules, and it doesn’t look great. If you’re suspected of infringing copyright, the makers of whatever weird shit you may have been downloading can force your ISP to retain a record of your identity and online actions for 6 months, or 12 months if they decide to take you to court. Understandably, some people are worried about their privacy.</p>
+
+    <p>“But I’m just a normal-ass Bell subscriber and I just use my connection to watch the Leafs and my Netflix in fancy-ass HD, so I have nothing to fear from this, right?” Unfortunately, it’s more complicated and frightening than that. In the context of wholesale government surveillance already being used to monitor peaceful environmental groups and god knows who else, this stops being about your squeaky-clean, or embarrassing, browsing habits and quickly begins to threaten your democratic rights to protest and speak freely. Given that there’s already a precedent for government surveillance against fringe political groups, if the TPP is solidified as an international norm, the increase in government powers for such surveillance will be unprecedented. You may not care enough to protest about a pipeline at the moment, but one day you’ll probably care about something.</p>
+
+    <p>If this all sounds bad, that’s because it is. But Canadian copyright law is on track to become much more unbalanced. And it won’t be in favour of the little people.</p>
+
+    <p>As is becoming the norm, in rides a whistleblower to the rescue—in this case, Wikileaks. It’s kind of a national embarrassment that we have to get this kind of information from leaks, rather than our own government, but let’s focus on what’s inside the leak, and what it means for Canada.</p>
+
+    <p>Surprisingly, Canada stands out in the leaked text as one of a few countries standing up against some of the more extreme proposals coming from Uncle Sam. Perhaps it’s because the government is lazy and doesn’t want to overhaul our whole copyright legal structure. Perhaps we’re just horse-trading, and plan to roll over if the US will just approve that pipeline so we can finish turning northern Alberta into a hellish moonscape. Maybe we just don’t want to see people face criminal penalties or financial ruin for unintentional copyright infringement (the US is going it alone in pushing for this sadistic measure).</p>
+
+    <p>I spoke to Professor Michael Geist about all this, he said, “Canada is simply sticking by its copyright law… but it is certainly possible that Canada will cave if it means striking a deal. The government is clearly intent on being part of the TPP.”</p>
+
+    <p>Canada has also been pushing back against US proposals to extend copyright terms, which would see books, music, and cartoon characters like Mickey Mouse take two decades longer to enter the public domain. This sucks for anyone in Canada who likes reading books or listening to music, as well as anyone who appreciates not paying for Celine Dion’s heirs’ caviar-powered speedboat in 50 years.</p>
+
+    <p>Geist confirmed that the TPP would also set up an alarmingly strict bunch of rules surrounding fines and penalties for suspected copyright infringement and breaking user-unfriendly DRM, with reports of ISP’s being forced to terminate internet access for people simply accused of piracy, “filter internet communications for potentially copyright-infringing material,” and block access to sites that allegedly facilitate infringement.</p>
+
+    <p>Canadians can look to the UK for a small slice of what this kind of stuff would mean. David Cameron’s “think of the children” porn filter has so far blocked access to legitimate news sites, popular bittorrent search engines and resources, LGBT education sites, and many resources for people looking to learn about computing.</p>
+
+    <p>Even Canada’s ability to respond to NSA surveillance and set up our own privacy rules would be harmed thanks to the agreement’s E-commerce rules, says Geist. Additionally, “the notice-and-takedown system in the US has resulted in bogus takedowns that threaten free speech. Canada rejected the system in the last copyright reform effort, but the TPP would mandate that Canada reverse itself and mirror the US approach.” How much trampling of our basic rights are we prepared to accept for an unknowably small boost to GDP over 10 years?</p>
+
+    <p>Expect mainstream, Big Media TPP coverage to increase as negotiators get closer to a deal. After the outrage surrounding SOPA, PIPA, CISPA, and ACTA, people may be tiring of fighting acronyms. Governments are counting on that fatigue, but the internet is already roiling with discontent over the deal. Expect that to grow.</p>
+
+    <p>‘Sign this totally sweet secret pact, or your economy will be left behind,’ leaders and citizens will be told. TPP overlord and US Trade Rep. Michael Froman recently announced on a completely conflict-of-interest-free tour of Paramount Studios in Hollywood that the trade pact was “the most transparent trade negotiation in history.”</p>
+
+    <p>Canadians who care about digital innovation and internet freedom would be wise not to believe him. As usual, the juicy carrot on offer is “jobs and growth,” but that carrot comes with an awfully large stick.</p>
+
+    <p class="meta"><a href="/">← Back to all essays</a></p>
+  </main>
+
+  <footer>
+    <hr>
+    <p class="meta">© 2025 Chris Malmo</p>
+  </footer>
+</body>
+</html>
