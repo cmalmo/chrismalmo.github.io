@@ -4,70 +4,331 @@
   <meta charset="utf-8">
   <title>Chris Malmo – Writing</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Writing by Chris Malmo">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="icon" href="/favicon.ico" />
+  <meta name="description" content="Writing by Chris Malmo on technology, policy, and the environment. Older pieces are a snapshot and my views have probably evolved.">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <!-- OpenGraph/Twitter -->
+  <meta property="og:title" content="Chris Malmo – Writing">
+  <meta property="og:description" content="Essays and reporting on tech, policy, and the environment.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://chrismalmo.com/">
+  <meta name="theme-color" content="#0f1115">
+
+  <style>
+    :root { --bg:#ffffff; --text:#222; --muted:#666; --line:#e5e5e5; --link:#2149d1; --card:#fafafa; }
+    [data-theme="dark"] { --bg:#0f1115; --text:#e9e9e9; --muted:#a6a6a6; --line:#22272e; --link:#8fb4ff; --card:#12161d; }
+    html{font-size:18px}
+    body{margin:2rem auto;max-width:46rem;line-height:1.65;padding:0 1rem;font-family:Georgia,"Times New Roman",serif;background:var(--bg);color:var(--text)}
+    a{color:var(--link);text-decoration:none} a:hover{text-decoration:underline}
+    hr{border:none;border-top:1px solid var(--line);margin:1.75rem 0}
+    .meta{color:var(--muted);font-size:.9rem}
+    header{display:flex;align-items:center;justify-content:space-between;gap:1rem}
+    .brand{display:flex;align-items:baseline;gap:.6rem}
+    .brand h1{font-size:1.35rem;margin:0}
+    .nav a{margin-left:1rem}
+    .hero{margin:1rem 0 1.25rem}
+    .hero p{margin:.25rem 0 0;color:var(--muted)}
+    .tools{display:flex;gap:.75rem;align-items:center;margin:1rem 0 1.25rem}
+    .search{flex:1}
+    .search input{width:100%;padding:.6rem .75rem;border:1px solid var(--line);border-radius:.5rem;background:var(--bg);color:var(--text)}
+    .toggle{display:inline-flex;align-items:center;gap:.5rem;cursor:pointer;font-size:.95rem;color:var(--muted)}
+    .toggle input{accent-color:var(--link)}
+    .featured{border:1px solid var(--line);background:var(--card);border-radius:.75rem;padding:1rem}
+    .featured h2{margin:.1rem 0 .25rem;font-size:1.2rem}
+    .featured p{margin:.4rem 0 0}
+    .list{list-style:none;padding:0;margin:1rem 0 0}
+    .list li{padding:.6rem 0;border-bottom:1px dashed var(--line)}
+    .list a{font-weight:600}
+    .badges{display:inline-flex;gap:.4rem;margin-left:.4rem}
+    .badge{font-weight:500;color:var(--muted);font-size:.8rem;border:1px solid var(--line);padding:.1rem .4rem;border-radius:.4rem}
+    footer{margin:2rem 0 0}
+    @media (hover:hover){.featured:hover{border-color:#cfd6e4}}
+  </style>
+
+  <!-- JSON-LD (minimal) -->
+  <script type="application/ld+json">
+  { "@context":"https://schema.org", "@type":"Blog",
+    "name":"Chris Malmo — Writing",
+    "url":"https://chrismalmo.com/",
+    "description":"Writing on tech, policy, and the environment."
+  }
+  </script>
 </head>
 <body>
   <header>
-    <h1>Chris Malmo</h1>
-    <p>Past and current writing, some published elsewhere. Past articles are snapshots and not necessarily my current views.</p>
-    <hr>
+    <div class="brand">
+      <h1>Chris Malmo</h1>
+      <span class="meta">writing</span>
+    </div>
+    <nav class="nav">
+      
+      <a href="/about.html" class="meta">About</a>
+    </nav>
   </header>
 
-  <main>
-  <h2>Writing</h2>
-  <ul>
-    <li><a href="/writing/tpp-and-internet.html">TPP and Internet</a></li>
-    <li><a href="/writing/tpp-and-environment.html">TPP and Environment</a></li>
-    <li><a href="writing/canadian-music-industry-censorship.html">Canadian Music Industry censorship</a></li>
-    <li><a href="writing/nsa-spying-copenhagen.html">NSA spying on Copenhagen Climate Summit</a></li>
-    <li><a href="writing/bccla-lawsuit-csec.html">BCCLA Lawsuit re: CSEC spying</a></li>
-    <li><a href="writing/bitcoin-voting.html">Bitcoin voting</a></li>
-    <li><a href="writing/canadas-digital-strategy.html">Canada’s Digital Strategy</a></li>
-    <li><a href="writing/canadian-net-neutrality.html">Canadian Net Neutrality</a></li>
-    <li><a href="writing/tpp-going-nowhere-fast.html">TPP going nowhere fast</a></li>
-    <li><a href="writing/tpp-by-the-numbers.html">TPP by the numbers</a></li>
-    <li><a href="writing/privacy-commissioner-c13.html">Privacy commissioner testifies about C-13</a></li>
-    <li><a href="writing/access-my-info-tool.html">Access my info tool</a></li>
-    <li><a href="writing/tisa-wikileaks.html">TISA Wikileaks</a></li>
-    <li><a href="writing/tpp-comes-to-canada.html">TPP Comes to Canada</a></li>
-    <li><a href="writing/harper-surveillance-cyberbullying.html">The Harper Government’s Surveillance and Cyberbullying Bill Could Hurt Canadian Tech Firms</a></li>
-    <li><a href="writing/vr-syrian-war.html">A New Virtual Reality Tool Brings the Daily Trauma of the Syrian War to Life</a></li>
-    <li><a href="writing/canadian-dairy-cartel.html">Blame Canada’s Dairy Cartel for Our Expensive Milk and Cheese</a></li>
-    <li><a href="writing/video-game-download-climate.html">Another Thing Cooking the Planet: Your Video Game Download</a></li>
-    <li><a href="writing/rural-broadband-canada.html">Rural broadband in Canada is still a mess</a></li>
-    <li><a href="writing/tpp-enemy-of-internet.html">The Trans-Pacific Partnership is still an enemy of the internet</a></li>
-    <li><a href="writing/vr-taser-death.html">Virtual Reality turns a horrific taser death into immersive journalism</a></li>
-    <li><a href="writing/canadian-cops-phone-search.html">Canadian Cops Can Now Search Your Phone if You’ve Been Arrested, so Slap a Password on It</a></li>
-    <li><a href="writing/illegal-downloading-turning-point.html">We’re at a Turning Point in Canada for Illegal Downloading</a></li>
-    <li><a href="writing/canadian-govt-warning-letters.html">The Canadian Government Is Pushing Back Against Warning Letters for Illegal Downloading</a></li>
-    <li><a href="writing/canada-foreign-corporations.html">Canada is signing up to get sued by more foreign corporations</a></li>
-    <li><a href="writing/bitcoin-simulator.html">This bitcoin simulator is an insane trip through cryptocurrency hell</a></li>
-    <li><a href="writing/tim-hortons-enbridge.html">Tim Hortons stops running Enbridge’s ads following public backlash</a></li>
-    <li><a href="writing/bitcoin-unsustainable.html">Bitcoin is unsustainable</a></li>
-    <li><a href="writing/bitcoin-break-real-world.html">To survive long term, Bitcoin needs a break from the real world</a></li>
-    <li><a href="writing/bitcoin-gold-standard.html">What would a bitcoin gold standard look like?</a></li>
-    <li><a href="writing/bitcoin-still-unsustainable.html">Bitcoin is (still) unsustainable</a></li>
-    <li><a href="writing/ethereum-electricity.html">Ethereum electricity consumption</a></li>
-    <li><a href="writing/bitcoin-electricity-update.html">Bitcoin electricity update</a></li>
-  </ul>
-</main>
+  <div class="hero">
+    <p>Essays and reporting on technology, policy, and climate — simple, fast, durable.</p>
+  </div>
 
+  <div class="tools">
+    <div class="search">
+      <input id="q" type="search" placeholder="Search titles and tags…" aria-label="Search writing">
+    </div>
+    <label class="toggle"><input id="themeToggle" type="checkbox"> Dark</label>
+  </div>
+
+  <!-- Featured piece -->
+  <section class="featured" aria-labelledby="feat">
+    <div class="meta">Featured</div>
+    <h2 id="feat"><a href="/writing/bitcoin-is-still-unsustainable.html/">Bitcoin is still Unsustainable</a></h2>
+    <div class="meta">2017</div>
+    <p>A look at how Bitcoin's electricity consumption looked in 2017.</p>
+  </section>
+
+  <hr>
+
+  <main>
+    <h2>All writing</h2>
+    <ul id="list" class="list">
+      <li data-tags="tpp canada policy environment">
+        <a href="/writing/the-trans-pacific-partnership-and-canada/">The Trans-Pacific Partnership and Canada</a>
+        <span class="meta"> · analysis</span>
+        <span class="badges"><span class="badge">TPP</span><span class="badge">canada</span></span>
+      </li>
+      <li data-tags="bitcoin energy update climate">
+        <a href="/writing/bitcoin-electricity-update/">Bitcoin electricity update</a>
+        <span class="meta"> · energy</span>
+        <span class="badges"><span class="badge">bitcoin</span><span class="badge">update</span></span>
+      </li>
+      <li data-tags="ethereum energy climate">
+        <a href="/writing/ethereum-electricity-consumption/">Ethereum electricity consumption</a>
+        <span class="meta"> · energy</span>
+        <span class="badges"><span class="badge">ethereum</span></span>
+      </li>
+      <li data-tags="bitcoin energy update climate">
+        <a href="/writing/bitcoin-is-still-unsustainable/">Bitcoin is (still) unsustainable</a>
+        <span class="meta"> · energy</span>
+        <span class="badges"><span class="badge">bitcoin</span></span>
+      </li>
+      <li data-tags="bitcoin economics gold">
+        <a href="/writing/what-would-a-bitcoin-gold-standard-look-like/">What would a bitcoin gold standard look like?</a>
+        <span class="meta"> · economics</span>
+        <span class="badges"><span class="badge">bitcoin</span><span class="badge">gold</span></span>
+      </li>
+      <li data-tags="bitcoin economics crypto">
+        <a href="/writing/to-survive-long-term-bitcoin-needs-a-break-from-the-real-world/">
+          To survive long term, Bitcoin needs a break from the real world
+        </a>
+        <span class="meta"> · economics</span>
+        <span class="badges"><span class="badge">bitcoin</span></span>
+      </li>
+      <li data-tags="bitcoin energy climate">
+        <a href="/writing/bitcoin-is-unsustainable/">Bitcoin is unsustainable</a>
+        <span class="meta"> · energy</span>
+        <span class="badges"><span class="badge">bitcoin</span><span class="badge">climate</span></span>
+      </li>
+      <li data-tags="energy ads canada activism">
+        <a href="/writing/tim-hortons-stops-running-enbridges-ads-following-public-backlash/">
+          Tim Hortons stops running Enbridge’s ads following public backlash
+        </a>
+        <span class="meta"> · energy</span>
+        <span class="badges"><span class="badge">ads</span><span class="badge">activism</span></span>
+      </li>
+      <li data-tags="bitcoin crypto games culture">
+        <a href="/writing/this-bitcoin-simulator-is-an-insane-trip-through-cryptocurrency-hell/">
+          This bitcoin simulator is an insane trip through cryptocurrency hell
+        </a>
+        <span class="meta"> · culture</span>
+        <span class="badges"><span class="badge">bitcoin</span><span class="badge">games</span></span>
+      </li>
+      <li data-tags="isds trade canada law">
+        <a href="/writing/canada-is-signing-up-to-get-sued-by-more-foreign-corporations/">
+          Canada is signing up to get sued by more foreign corporations
+        </a>
+        <span class="meta"> · trade</span>
+        <span class="badges"><span class="badge">ISDS</span><span class="badge">law</span></span>
+      </li>
+      <li data-tags="copyright canada piracy isps">
+        <a href="/writing/the-canadian-government-is-pushing-back-against-warning-letters-for-illegal-downloading/">
+          The Canadian Government Is Pushing Back Against Warning Letters for Illegal Downloading
+        </a>
+        <span class="meta"> · copyright</span>
+        <span class="badges"><span class="badge">ISPs</span></span>
+      </li>
+      <li data-tags="copyright canada piracy law">
+        <a href="/writing/were-at-a-turning-point-in-canada-for-illegal-downloading/">
+          We’re at a Turning Point in Canada for Illegal Downloading
+        </a>
+        <span class="meta"> · copyright</span>
+        <span class="badges"><span class="badge">piracy</span></span>
+      </li>
+      <li data-tags="privacy law policing supreme-court">
+        <a href="/writing/canadian-cops-can-now-search-your-phone-if-youve-been-arrested-so-slap-a-password-on-it/">
+          Canadian Cops Can Now Search Your Phone if You’ve Been Arrested, so Slap a Password on It
+        </a>
+        <span class="meta"> · privacy</span>
+        <span class="badges"><span class="badge">law</span><span class="badge">phones</span></span>
+      </li>
+      <li data-tags="vr journalism policing">
+        <a href="/writing/virtual-reality-turns-a-horrific-taser-death-into-immersive-journalism/">
+          Virtual Reality turns a horrific taser death into immersive journalism
+        </a>
+        <span class="meta"> · reporting</span>
+        <span class="badges"><span class="badge">VR</span><span class="badge">policing</span></span>
+      </li>
+      <li data-tags="tpp internet policy">
+        <a href="/writing/the-trans-pacific-partnership-is-still-an-enemy-of-the-internet/">
+          The Trans-Pacific Partnership is still an enemy of the internet
+        </a>
+        <span class="meta"> · policy</span>
+        <span class="badges"><span class="badge">TPP</span><span class="badge">internet</span></span>
+      </li>
+      <li data-tags="canada broadband infrastructure">
+        <a href="/writing/rural-broadband-in-canada-is-still-a-mess/">
+          Rural broadband in Canada is still a mess
+        </a>
+        <span class="meta"> · infrastructure</span>
+        <span class="badges"><span class="badge">broadband</span></span>
+      </li>
+      <li data-tags="climate energy gaming downloads">
+        <a href="/writing/another-thing-cooking-the-planet-your-video-game-download/">
+          Another Thing Cooking the Planet: Your Video Game Download
+        </a>
+        <span class="meta"> · energy</span>
+        <span class="badges"><span class="badge">gaming</span><span class="badge">climate</span></span>
+      </li>
+      <li data-tags="canada dairy policy agriculture">
+        <a href="/writing/blame-canadas-dairy-cartel-for-our-expensive-milk-and-cheese/">
+          Blame Canada’s Dairy Cartel for Our Expensive Milk and Cheese
+        </a>
+        <span class="meta"> · economy</span>
+        <span class="badges"><span class="badge">dairy</span><span class="badge">policy</span></span>
+      </li>
+      <li data-tags="vr journalism syria">
+        <a href="/writing/a-new-virtual-reality-tool-brings-the-daily-trauma-of-the-syrian-war-to-life/">
+          A New Virtual Reality Tool Brings the Daily Trauma of the Syrian War to Life
+        </a>
+        <span class="meta"> · reporting</span>
+        <span class="badges"><span class="badge">VR</span><span class="badge">conflict</span></span>
+      </li>
+      <li data-tags="canada surveillance bill tech">
+        <a href="/writing/the-harper-governments-surveillance-and-cyberbullying-bill-could-hurt-canadian-tech-firms/">
+          The Harper Government’s Surveillance and Cyberbullying Bill Could Hurt Canadian Tech Firms
+        </a>
+        <span class="meta"> · law</span>
+        <span class="badges"><span class="badge">surveillance</span><span class="badge">tech</span></span>
+      </li>
+      <li data-tags="tpp canada trade policy">
+        <a href="/writing/tpp-comes-to-canada/">TPP Comes to Canada</a>
+        <span class="meta"> · trade</span>
+        <span class="badges"><span class="badge">TPP</span><span class="badge">canada</span></span>
+      </li>
+      <li data-tags="tisa leaks trade">
+        <a href="/writing/tisa-wikileaks/">TISA Wikileaks</a>
+        <span class="meta"> · trade</span>
+        <span class="badges"><span class="badge">TISA</span><span class="badge">leaks</span></span>
+      </li>
+      <li data-tags="privacy tools data">
+        <a href="/writing/access-my-info-tool/">Access my info tool</a>
+        <span class="meta"> · tools</span>
+        <span class="badges"><span class="badge">privacy</span></span>
+      </li>
+      <li data-tags="privacy law canada c-13">
+        <a href="/writing/privacy-commissioner-testifies-about-c-13/">Privacy commissioner testifies about C-13</a>
+        <span class="meta"> · law</span>
+        <span class="badges"><span class="badge">privacy</span><span class="badge">C-13</span></span>
+      </li>
+      <li data-tags="tpp trade data">
+        <a href="/writing/tpp-by-the-numbers/">TPP by the numbers</a>
+        <span class="meta"> · data</span>
+        <span class="badges"><span class="badge">TPP</span><span class="badge">stats</span></span>
+      </li>
+      <li data-tags="tpp trade policy">
+        <a href="/writing/tpp-going-nowhere-fast/">TPP going nowhere fast</a>
+        <span class="meta"> · trade</span>
+        <span class="badges"><span class="badge">TPP</span></span>
+      </li>
+      <li data-tags="canada net-neutrality policy">
+        <a href="/writing/canadian-net-neutrality/">Canadian Net Neutrality</a>
+        <span class="meta"> · policy</span>
+        <span class="badges"><span class="badge">net neutrality</span></span>
+      </li>
+      <li data-tags="canada policy digital strategy">
+        <a href="/writing/canadas-digital-strategy/">Canada’s Digital Strategy</a>
+        <span class="meta"> · policy</span>
+        <span class="badges"><span class="badge">canada</span><span class="badge">strategy</span></span>
+      </li>
+      <li data-tags="bitcoin crypto democracy voting">
+        <a href="/writing/bitcoin-voting/">Bitcoin voting</a>
+        <span class="meta"> · crypto</span>
+        <span class="badges"><span class="badge">bitcoin</span><span class="badge">civics</span></span>
+      </li>
+      <li data-tags="privacy surveillance canada csec law">
+        <a href="/writing/bccla-lawsuit-re-csec-spying/">BCCLA Lawsuit re: CSEC spying</a>
+        <span class="meta"> · privacy</span>
+        <span class="badges"><span class="badge">CSEC</span><span class="badge">law</span></span>
+      </li>
+      <li data-tags="surveillance nsa climate">
+        <a href="/writing/nsa-spying-on-copenhagen-climate-summit/">NSA spying on Copenhagen Climate Summit</a>
+        <span class="meta"> · surveillance</span>
+        <span class="badges"><span class="badge">NSA</span><span class="badge">climate</span></span>
+      </li>
+      <li data-tags="canada music censorship policy">
+        <a href="/writing/canadian-music-industry-censorship/">Canadian Music Industry censorship</a>
+        <span class="meta"> · culture & policy</span>
+        <span class="badges"><span class="badge">music</span><span class="badge">policy</span></span>
+      </li>
+      <li data-tags="tpp environment climate">
+        <a href="/writing/tpp-and-environment/">TPP and Environment</a>
+        <span class="meta"> · environment</span>
+        <span class="badges"><span class="badge">TPP</span><span class="badge">climate</span></span>
+      </li>
+      <li data-tags="tpp internet policy">
+        <a href="/writing/tpp-and-internet/">TPP and Internet</a>
+        <span class="meta"> · policy</span>
+        <span class="badges"><span class="badge">TPP</span><span class="badge">internet</span></span>
+      </li>
+  
+    </ul>
+  </main>
 
   <footer>
     <hr>
-    <p class="meta">© 2025 Chris Malmo</p>
+    <p class="meta">© 2025 Chris Malmo 
   </footer>
+
+  <script>
+    // Dark mode toggle with persistence + prefers-color-scheme
+    (function(){
+      const root = document.documentElement;
+      const key = 'theme';
+      const saved = localStorage.getItem(key);
+      const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+      const initial = saved || (prefersDark ? 'dark' : 'light');
+      if(initial==='dark') root.setAttribute('data-theme','dark');
+      const cb = document.getElementById('themeToggle');
+      cb.checked = root.getAttribute('data-theme')==='dark';
+      cb.addEventListener('change', () => {
+        if(cb.checked){ root.setAttribute('data-theme','dark'); localStorage.setItem(key,'dark'); }
+        else { root.removeAttribute('data-theme'); localStorage.setItem(key,'light'); }
+      });
+    })();
+
+    // Tiny client-side search (matches text + data-tags)
+    (function(){
+      const q = document.getElementById('q');
+      const items = Array.from(document.querySelectorAll('#list li'));
+      q.addEventListener('input', () => {
+        const term = q.value.trim().toLowerCase();
+        items.forEach(li => {
+          const hay = (li.textContent + ' ' + (li.dataset.tags||'')).toLowerCase();
+          li.style.display = hay.includes(term) ? '' : 'none';
+        });
+      });
+    })();
+  </script>
 </body>
-
 </html>
-
-
-
-
-
-
-
-
-
+```
